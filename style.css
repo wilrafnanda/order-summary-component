@@ -1,0 +1,148 @@
+:root {
+    --clr-primary-p-blue: hsl(225, 100%, 94%);
+    --clr-primary-b-blue: hsl(245, 75%, 52%);
+
+    --clr-neutral-v-p-blue: hsl(225, 100%, 98%);
+    --clr-neutral-d-blue: hsl(224, 23%, 55%);
+    --clr-neutral-dark-blue: hsl(223, 47%, 23%);
+
+    --fs-para : 16px;
+
+    --ff-main: 'Red Hat Display', sans-serif;
+
+    --fw-500: 500;
+    --fw-700: 700;
+    --fw-900: 900;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  
+}
+
+* {
+    margin: 0;
+    
+  }
+  body {
+    background: url("./images/pattern-background-mobile.svg") no-repeat;
+    background-size: contain;
+  font-size: var(--fs-para);
+  font-family: var(--ff-main);
+  min-height: 100vh;
+  background-color: var(--clr-primary-p-blue);
+  }
+
+  
+
+.container{
+    background-color: #fff;
+    max-width: 350px;
+    margin-inline: auto;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.header {
+    font-size: 26px;
+    color: var(--clr-neutral-dark-blue);
+}
+.content {
+    color: var(--clr-neutral-dark-blue);
+
+}
+main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.center{
+   text-align: center;
+}
+.plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--clr-neutral-v-p-blue);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.plan1 {
+    display: flex;
+    
+}
+.plan-amt {
+    padding: 20px;
+  
+}
+.bold {
+    font-weight: var(--fw-900);
+    color: var(--clr-neutral-dark-blue);
+}
+.plan-amt p {
+    color: var(--clr-neutral-dark-blue);
+
+}
+button {
+    width: 100%;
+    border-radius: 10px;
+    background-color: var(--clr-primary-b-blue);
+    border: none;
+    padding: 10px;
+    box-shadow: 2px 2px 9px var(--clr-neutral-dark-blue);
+    color: #fff;
+    font-weight: var(--fw-700);
+    margin-bottom: 20px;
+}
+.cancel {
+    color: var(--clr-neutral-d-blue);
+    font-weight: 900;
+}
+.contents {
+    padding: 20px 20px;
+}
+body {
+    line-height: 1.5;
+    /* -webkit-font-smoothing: antialiased; */
+  }
+  mg,
+svg {
+  display: block;
+  max-width: 100%;
+}
+button {
+  font: inherit;
+}
+
+p,
+h1,
+h2 {
+  overflow-wrap: break-word;
+}
+.plan a:hover {
+    color: var(--clr-primary-b-blue);
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: var(--clr-primary-b-blue);
+    font-weight: var(--fw-500);
+    cursor: pointer;
+}
+
+.cancel:hover {
+    color: black;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+
+.center {
+    text-align: center;
+}
+
+
+    
